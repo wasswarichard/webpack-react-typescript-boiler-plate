@@ -1,7 +1,7 @@
 {
-  "name": "react-datatables",
+  "name": "webpack-react-typescript-boiler-plate",
   "version": "1.0.0",
-  "description": "",
+  "description": "In the root directory, you can run:",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmkasendwa/react-datatables.git"
+    "url": "git+https://github.com/wasswarichard/webpack-react-typescript-boiler-plate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rmkasendwa/react-datatables/issues"
+    "url": "https://github.com/wasswarichard/webpack-react-typescript-boiler-plate/issues"
   },
-  "homepage": "https://github.com/rmkasendwa/react-datatables#readme",
+  "homepage": "https://github.com/wasswarichard/webpack-react-typescript-boiler-plate#readme",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
