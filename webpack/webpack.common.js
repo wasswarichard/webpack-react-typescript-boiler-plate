@@ -19,18 +19,19 @@ module.exports = {
             },
             {
                 test: /\.s[ac]ss$/i,
-                use: ['style-loader', 'css-loader',
+                use: [
+                    'style-loader',
+                    'css-loader',
                     {
-                        loader: "sass-loader",
+                        loader: 'sass-loader',
                         options: {
-                            implementation: require("sass"),
+                            implementation: require('sass'),
                             sassOptions: {
                                 fiber: false,
                             },
                         },
-                    }
+                    },
                 ],
-
             },
             {
                 test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
